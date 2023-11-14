@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>잉스타그램</title>
+    <style>
+       *{margin: 0; padding: 0;}
+
+ body{
+     padding: 30px;
+     background-color: #f3f1e9;
+ }
+  
+ /* header 영역  */
+ header{ padding: 5px;}
+  
+ header a{text-decoration: none; color: #333333;}
+  
+ /* nav 영역 */
+ nav{margin-top: 10px; margin-bottom: 20px;}
+  
+ nav ul{
+     list-style: none;
+     border-top: 1px solid gray;
+     border-bottom: 1px solid   gray;
+     text-align: center;
+ }
+  
+ nav ul li{
+     display: inline;
+     letter-spacing: .3em;
+     margin-left: 2em;
+ }
+  
+ nav ul li a{
+     text-decoration: none;
+     color: black;
+     line-height: 3px
+    
+ }
+  
+  
+ /* 왼쪽 사이드 메뉴 */
+ aside#left{
+     float: left;
+     width: 10em;
+     margin-right: 10px;
+ }
+  
+ aside#left ul{ list-style: none}
+  
+ aside#left ul li{
+     background-color:gray;
+     padding: 5px 10px;
+     border-bottom: 1px solid black;
+ }
+  
+ aside#left ul li a{
+     color: white;
+     text-decoration: none;
+ }
+
+  
+ aside#main{
+     float: left;
+ }
+  
+ /* 가운데 본문 영역 */
+ section#main{
+     float: left;
+ }
+  
+ /* 오른쪽 사이드 메뉴 */
+ aside#right{
+     float: right;
+     padding: 10px;
+     width: 12p;
+ }
+  
+  
+ aside#right #shopcart{
+     margin-bottom: 30px;
+ }
+ aside#right #login input{
+     margin-bottom: 5px;
+ }
+  
+ /* footer영역 */
+ footer{
+     clear: both;
+     background-color: #333333;
+     color: white;
+     text-align: center;
+     padding: 1em 0px;
+    
+ }
+
+ table{        
+    			    width: 100%;
+			    border-top: 1px solid gray;
+		    	border-collapse: collapse;
+		    	margin-bottom : 50px
+                
+		    }
+		  	th, td {
+		    	border-bottom: 1px solid black;
+		    	padding: 10px;
+		    	text-align: center;
+		    }
+		  tr {
+		    	background-color: wheat;
+		    	color:  black;
+		    }
+		  	 tr:nth-child(2n) {
+		    	background-color: white;
+		    }
+		  	
+    </style>
+
+
+
+</head>
+<body>
+    <body>
+        <header id="header">
+            <h1>
+                <alt="board" width="50" height="50">
+                <a>잉스타그램</a>
+            </h1>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">회원가입</a></li>
+                <li><a href="">내정보</a></li>
+             
+            </ul>
+        </nav>
+        <aside id="left">
+            <h4>카테고리</h4>
+            <ul>
+                <li><a>커뮤니티</a></li>
+                <li><a>자유게시판</a></li>
+                <li><a>어쩌구저쩌구</a></li>
+             
+            </ul>
+        </aside>
+        <section id="main">
+            <article>
+              
+<!-- 메인영역 인기게시글? -->
+
+<h2>인기게시글</h2>
+
+<table>
+  <tr>
+    <th>번호</th>
+    <th>아이디</th>
+    <th>좋아요 수</th>
+  </tr>
+  <tr>
+    <td>1</td>
+    <td>조승아</td>
+    <td>9999</td>
+  </tr>
+  <tr>
+    <td>2</td>
+    <td>유예슬</td>
+    <td>2000</td>
+  </tr>
+  <tr>
+    <td>3</td>
+    <td>정명진</td>
+    <td>2500</td>
+  </tr>
+  <tr>
+    <td>4</td>
+    <td>이창현</td>
+    <td>1</td>
+  </tr>
+  <tr>
+    <td>5</td>
+    <td>이인영</td>
+    <td>9999</td>
+  </tr>
+</table>
+
+
+
+
+
+
+
+            </article>
+        </section>
+     
+       
+     
+           
+        </aside>
+        <footer>
+            Copyright & copy lol반 세미프로젝트 
+        </footer>
+        
+    </body>
+    </html>
