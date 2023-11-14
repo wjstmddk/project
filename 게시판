@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>잉스타그램</title>
+</head>
+<body>
+    <div class="board_wrap">
+        <div class="board_title">
+            <h3><strong>잉스타그램 게시글</strong></h3>
+            <h6>화면뒤에 사람이 있습니다. 신중히 써주세요.</h6>
+        </div>
+        <div class="board_list_wrap">
+            <div class="board_list">
+                <div class="top">
+                    <div class="num">번호</div>
+                    <div class="title">제목</div>
+                    <div class="writer">작성자</div>
+                    <div class="date">작성일</div>
+                    <div class="count">조회</div>
+                </div>
+                <div>
+                    <div class="num">5</div>
+                    <div class="title"><a href="#">글 제목</a></div>
+                    <div class="writer">aa</div>
+                    <div class="date">2023.11.15</div>
+                    <div class="count">00</div>
+                </div>
+                <div>
+                    <div class="num">4</div>
+                    <div class="title"><a href="#">글 제목</a></div>
+                    <div class="writer">bb</div>
+                    <div class="date">2023.11.14</div>
+                    <div class="count">00</div>
+                </div>
+                <div>
+                    <div class="num">3</div>
+                    <div class="title"><a href="#">글 제목</a></div>
+                    <div class="writer">cc</div>
+                    <div class="date">2023.11.13</div>
+                    <div class="count">00</div>
+                </div>
+                <div>
+                    <div class="num">2</div>
+                    <div class="title"><a href="#">글 제목</a></div>
+                    <div class="writer">dd</div>
+                    <div class="date">2023.11.12</div>
+                    <div class="count">00</div>
+                </div>
+                <div>
+                    <div class="num">1</div>
+                    <div class="title"><a href="#">글 제목</a></div>
+                    <div class="writer">ee</div>
+                    <div class="date">2023.11.11</div>
+                    <div class="count">00</div>
+                </div>
+            </div>
+            <div class="board_page">
+                <a href="#" class="bt first"><<</a>
+                <a href="#" class="bt prey"><</a>
+                <a href="#" class="bt num on">1</a>
+                <a href="#" class="bt num">2</a>
+                <a href="#" class="bt num">3</a>
+                <a href="#" class="bt num">4</a>
+                <a href="#" class="bt num">5</a>
+                <a href="#" class="bt next">></a>
+                <a href="#" class="bt last">>></a>
+            </div>
+            <div class="bt_wrap">
+                <a href="#" class="on">목록</a>
+                <a href="#">수정</a>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
