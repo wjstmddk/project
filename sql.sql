@@ -5,7 +5,8 @@ create table member(
 	id varchar(30) primary key,
     pw varchar(20) not null,
     email varchar(50) not null,
-    name varchar(10) not null
+    name varchar(10) not null,
+    birth varchar(10) not null
 );
 drop table member;
 	create table writing(
