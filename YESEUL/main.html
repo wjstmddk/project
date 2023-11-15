@@ -5,13 +5,12 @@
     <meta charset="UTF-8">
     <title>MAIN2 </title>
     <link rel="stylesheet" href="mainStyle.css">
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+    <button id="loginbnt">로그인</button>
+
 </head>
-
 <body>
-    <header id="header">
-     <h1>잉스타그램</h1>
-    </header>
-
+    <h1>ING-STARGRAM</h1>
     <div id="wrapper">
         <nav>
             <ul>
@@ -68,10 +67,14 @@
             </article>
         </section>
     </div>
-
     <footer>
         <h2>Copyright &copy; 킹승아TEAM 세미프로젝트</h2>
     </footer>
+    <script>
+        $('#loginbnt').click(() => {
+            location.href = 'login2.html';
+        })
+    </script>
 </body>
 
 </html>

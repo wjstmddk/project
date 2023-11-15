@@ -1,111 +1,167 @@
-*{margin: 0; padding: 0;}
-
-body{
+body {
     padding: 30px;
     background-color: #f3f1e9;
 }
- 
+
 /* header 영역  */
-header{ padding: 5px;}
- 
-header a{text-decoration: none; color: black;}
- 
+header {
+    padding: 5px;
+}
+
+header a {
+    text-decoration: none;
+    color: black;
+}
+
+#loginbnt{
+        color: #FFFFFE;
+        background-color: palevioletred;
+        width: 95px;
+        height: 35px;
+        border: none;
+        border-radius: 4px;
+        font-size: 14.5px;
+        outline: none;
+        float: right;
+        margin-right: 18px;
+        margin-top: 10px;
+}
+
 /* nav 영역 */
-nav{margin-top: 10px; margin-bottom: 20px;}
- 
-nav ul{
+nav {
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+div.loginbox {
+    width: 100%;
+    margin: auto;
+    /* 가로중앙배치 */
+    width: 300px;
+    height: 200px;
+    background-color: gainsboro;
+    text-align: center;
+    padding: 20px;
+
+}
+
+
+
+
+nav ul {
     list-style: none;
     border-top: 1px solid gray;
-    border-bottom: 1px solid   gray;
+    border-bottom: 1px solid gray;
     text-align: center;
 }
- 
-nav ul li{
+
+nav ul li {
     display: inline-block;
-    letter-spacing: 3px;
+    letter-spacing: 30px;
     margin-left: 2em;
 }
- 
-nav ul li a{
+
+nav ul li a {
     text-decoration: none;
     color: black;
     line-height: 6px;
-   
+
 }
- 
- 
-/* 왼쪽 사이드 메뉴 */
-aside#left{
+
+input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+}
+
+
+
+.in {
+    margin-bottom: 10px;
+}
+
+#btn {
+    /* 로그인버튼 */
+    background-color: goldenrod;
+    margin-bottom: 30px;
+    color: white;
+
+}
+
+a {
+    /* 아이디,비밀번호 잊어버리셨나요 텍스트 */
+    color: gray;
+    font-size: 12px;
+}
+
+
+aside#left {
     float: left;
     width: 10em;
     margin-right: 10px;
 }
- 
-aside#left ul{ list-style: none}
- 
-aside#left ul li{
-    background-color:gray;
+
+aside#left ul {
+    list-style: none
+}
+
+aside#left ul li {
+    background-color: gray;
     padding: 5px 10px;
     border-bottom: 1px solid black;
 }
- 
-aside#left ul li a{
+
+aside#left ul li a {
     color: white;
     text-decoration: none;
 }
 
- 
-aside#main{
+aside#main {
     float: left;
 }
- 
+
 /* 가운데 본문 영역 */
-section#main{
+section#main {
     float: left;
 }
- 
+
 /* 오른쪽 사이드 메뉴 */
-aside#right{
+aside#right {
     float: right;
     padding: 10px;
     width: 12px;
 }
- 
- 
-aside#right #shopcart{
-    margin-bottom: 30px;
-}
-aside#right #login input{
-    margin-bottom: 5px;
-}
- 
-/* footer영역 */
-footer{
+
+
+
+footer {
     clear: both;
     background-color: goldenrod;
     color: white;
     text-align: center;
     padding: 1em 0px;
-   
 }
 
-table{        
-                   width: 100%;
-               border-top: 1px solid gray;
-               border-collapse: collapse;
-               margin-bottom : 50px
-               
-           }
-             th, td {
-               border-bottom: 1px solid black;
-               padding: 10px;
-               text-align: center;
-           }
-         tr {
-               background-color: wheat;
-               color:  black;
-           }
-              tr:nth-child(2n) {
-               background-color: white;
-           }
-             
+table {
+    width: 100%;
+    border-top: 1px solid gray;
+    border-collapse: collapse;
+    margin-bottom: 50px
+}
+
+th,
+td {
+    border-bottom: 1px solid black;
+    padding: 10px;
+    text-align: center;
+}
+
+tr {
+    background-color: wheat;
+    color: black;
+}
+
+tr:nth-child(2n) {
+    background-color: white;
+}
