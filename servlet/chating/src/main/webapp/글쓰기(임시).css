@@ -1,0 +1,60 @@
+
+/* 글쓰기 */
+
+
+/* 로고 이미지 */
+/* .homebox .logo {
+    width: 80px;
+    height: 80px;
+    margin: 0 auto;
+    margin-left: center;
+    border: 1px solid rgb(245, 142, 142);
+    border-radius: 100px;
+    overflow: hidden;
+} */
+
+ 
+
+.write {
+    width: 700px; margin: 0 auto;
+    border-top: 3px solid rgb(251, 184, 184); 
+    border-bottom: 3px solid rgb(180, 93, 93);
+}
+.write input {
+    width: 676px;
+    padding: 10px;
+    margin: 12px auto 0;
+    border-color: #f4d3d3;
+}
+.write .text {
+    table-layout: fixed;
+    width: 676px;
+    height: 300px;
+    white-space: pre-line;
+    word-break: break-all;
+    border-color: rgb(251, 184, 184);
+    border-top: 3px solid rgb(251, 184, 184); 
+    border-bottom: 3px solid rgb(251, 184, 184);
+}
+.write .button {
+    padding: 0 200px;
+    margin: 15px auto;
+}
+.write .button a {
+    border: 1px solid #e77878;
+    background: rgb(242, 142, 148);
+    margin: 10px;
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+.write .button a:hover {
+    color: rgb(255, 255, 255);
+}
+.write p {
+    text-align: center;
+}
+
+.down {
+    text-align: center;
+}

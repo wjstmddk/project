@@ -10,7 +10,7 @@
 <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
 </head>
 <body>
-	<form action="main" accept-charset="utf-8">
+	<form action="register" accept-charset="utf-8">
 		<div class="main-container">
 			<div>
 				<h1>Webstargram</h1>
