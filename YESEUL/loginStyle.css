@@ -1,72 +1,69 @@
 @font-face {
-    font-family: "Cafe24Supermagic-Bold-v1.0";
-    src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/Cafe24Supermagic-Bold-v1.0.woff2") format("woff2");
-    font-weight: 700;
-    font-style: normal;
-  }
+  font-family: "Cafe24Supermagic-Bold-v1.0";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/Cafe24Supermagic-Bold-v1.0.woff2")
+    format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 body {
-    background-color: #fafafa;
-    font-family: "Cafe24Supermagic-Bold-v1.0", sans-serif;
+  background-color: #fafafa;
+  font-family: "Cafe24Supermagic-Bold-v1.0", sans-serif;
 }
-/* webstargram 로고 */
+
 h1 {
-    font-size: 45px;
-    color: palevioletred;
+  font-size: 45px;
+  color: palevioletred;
 }
 
 .main-container .id {
-    margin: 3px auto;
+  margin: 3px auto;
 }
 
 .main-container {
-
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 500px;
-    height: 470px;
-    margin: 200px auto;
-    background-color: #fff;
-    border: 1px solid #dbdbdb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 500px;
+  height: 470px;
+  margin: 200px auto;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
 }
 
 .login-container {
-    text-align: center; /* 가운데 정렬 */
+  text-align: center; /* 가운데 정렬 */
 }
-
 
 /* 로그인 ,비밀번호 input */
 input {
-    margin: 3px auto;
-    width: 260px;
-    height: 40px;
-    font-size: 12px;
-    text-align: left; /* 왼쪽 정렬 추가 */
+  margin: 3px auto;
+  width: 260px;
+  height: 40px;
+  font-size: 12px;
+  text-align: left; /* 왼쪽 정렬 추가 */
 }
-
 
 /* 로그인버튼 */
 .loginbtn {
-    width: 260px;
-    height: 40px;
-    margin: 15px;
-    background-color: rgb(32, 144, 188);
-    color: white;
-    border: none;
-    border-radius: 5px;
+  width: 260px;
+  height: 40px;
+  margin: 15px;
+  background-color: rgb(32, 144, 188);
+  color: white;
+  border: none;
+  border-radius: 5px;
 }
 
-
 footer {
-    position: relative;
-    top: 100px;
-    color: gray;
-    font-size: 12px;
-    text-align: center;
+  position: relative;
+  top: 100px;
+  color: gray;
+  font-size: 12px;
+  text-align: center;
 }
