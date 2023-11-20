@@ -23,6 +23,7 @@ public class Register {
 			pstmt.setString(3,mem.getEmail());
 			pstmt.setString(4,mem.getNick());
 			int result=pstmt.executeUpdate();
+			arr.add(mem);
 			if(result==0) return false;
 			else return true;
 		}catch(SQLException e) {

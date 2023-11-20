@@ -1,6 +1,5 @@
-use mydb;
-use mysql;
-
+-- use mydb;
+-- use mysql;
 create table member(
 	id varchar(30) primary key,
     pw varchar(20) not null,
@@ -8,9 +7,10 @@ create table member(
     name varchar(10) not null,
     birth varchar(10) not null
 );
-
+desc member;
 select * from member;
-
+alter table member drop column birth;
+commit;
 insert into member values('qwe','qwe','qwe@gmail.com','정명진','2002-07-06');
 drop table member;
 drop table friend_add;

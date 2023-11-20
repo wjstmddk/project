@@ -19,12 +19,11 @@ public class Login {
 		try {
 			pstmt=conn.prepareStatement(sql);
 			pstmt.setString(1,mem.getId());
-			pstmt.setString(2, mem.getPw());
+			pstmt.setString(2,mem.getPw());
 			rs=pstmt.executeQuery();
 			arr.add(mem);
 			return rs.next();
 		} catch (SQLException e) {
-			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}finally {
 			jdbc.dbClose(rs, pstmt, conn);
