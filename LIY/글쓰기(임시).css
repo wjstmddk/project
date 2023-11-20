@@ -38,9 +38,13 @@
 }
 .write .text {
     table-layout: fixed;
+    width: 676px;
     height: 300px;
     white-space: pre-line;
     word-break: break-all;
+    border-color: rgb(251, 184, 184);
+    border-top: 3px solid rgb(251, 184, 184); 
+    border-bottom: 3px solid rgb(251, 184, 184);
 }
 .write .button {
     padding: 0 200px;
