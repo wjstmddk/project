@@ -15,16 +15,15 @@ input[type="search"] {
     margin: 0 auto;
     margin-left: center;
     border: 1px solid rgb(227, 122, 122);
-    /* margin-top: 20px;
-    padding: 4px 0 4px 14px; */
+    /* margin-top: 20px; */
+    padding: 4px 0 4px 14px;
     border-radius: 100px;
     overflow: hidden;
 }
 
 
 .left_sub_menu {
-    position: fixed;
-    top: 30px;
+    top: 40px;
     width: 190px;
     z-index: 10;
     background: rgb(255, 238, 238);
@@ -35,9 +34,9 @@ input[type="search"] {
     margin-top: 0px;
     padding-bottom: 0px;
 }
-.sub_menu {
+/* .sub_menu {
     margin-top: 50px;
-}
+} */
 .left_sub_menu>.sub_menu li:hover {
     color: white;
     background-color: rgb(206, 95, 95);
@@ -84,6 +83,7 @@ a {
 .board_wrap {
     width: 900px;
     margin: 200px;
+    
 }
 .board_title {
     margin-bottom: 30px;
