@@ -1,21 +1,9 @@
-/* 사이드 메뉴 */
-
 
 /* 글쓰기 */
 
-/* .homebox {
-    width: 80px;
-    height: 80px;
-    margin: 0 auto;
-    margin-left: center;
-    border: 1px solid black;
-    margin-top: 20px;
-    padding: 4px 0 4px 14px;
-    border-radius: 100px;
-    background: blank;
-} */
 
-.homebox .logo {
+/* 로고 이미지 */
+/* .homebox .logo {
     width: 80px;
     height: 80px;
     margin: 0 auto;
@@ -23,7 +11,9 @@
     border: 1px solid rgb(245, 142, 142);
     border-radius: 100px;
     overflow: hidden;
-}
+} */
+
+ 
 
 .write {
     width: 700px; margin: 0 auto;
@@ -38,9 +28,13 @@
 }
 .write .text {
     table-layout: fixed;
+    width: 676px;
     height: 300px;
     white-space: pre-line;
     word-break: break-all;
+    border-color: rgb(251, 184, 184);
+    border-top: 3px solid rgb(251, 184, 184); 
+    border-bottom: 3px solid rgb(251, 184, 184);
 }
 .write .button {
     padding: 0 200px;
