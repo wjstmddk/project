@@ -17,7 +17,7 @@
         <ul>
           <li><a href="#">Home</a></li>
           <!-- 각 링크의 href 속성에 실제 페이지 주소를 추가 -->
-          <li><a href="./Join.html">회원가입</a></li>
+          <li><a href="./register.jsp">회원가입</a></li>
           <li><a href="#">내정보</a></li>
         </ul>
       </nav>
