@@ -6,10 +6,9 @@
     <title>MAIN2 </title>
     <link rel="stylesheet" href="mainStyle.css">
     <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
-    <button id="loginbnt">로그인</button>
+    <button id="logoutbnt">로그아웃</button>
 
 </head>
-
 <body>
     <h1>WEB-STARGRAM</h1>
     <div id="wrapper">
@@ -71,11 +70,11 @@
     <footer>
         <h2>Copyright &copy; 승아TEAM 세미프로젝트</h2>
     </footer>
-    <script>
-
+    <script>        
+          $("#logoutbnt").click(() => {
+      location.href = "loginpage.html";
+    });
     </script>
 </body>
-
-
 
 </html>

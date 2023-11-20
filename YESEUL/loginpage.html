@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LOGIN-MAIN</title>
+  <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+  <link rel="stylesheet" href="./loginStyle.css" />
+</head>
+
+<body>
+  <div class="main-container">
+    <div>
+      <h1>Webstargram</h1>
+    </div>
+
+    <div class="login-container">
+      <input type="text" class="check" placeholder="전화번호 또는 사용자 이름" />
+      <input type="password" class="check" placeholder="비밀번호" />
+    </div>
+    <div>
+      <button class="loginbtn">로그인</button>
+    </div>
+    <div>
+      <div>
+        <span class="join" id="joinLink" href="" disabled>Webstargram이 처음이신가요?</span>
+      </div>
+    </div>
+    <footer>비밀번호를 잊으셨나요?</footer>
+  </div>
+
+  <script>
+
+
+
+    // Webstargram이 처음이신가요? 링크 누르면 회원가입페이지로
+    $("#joinLink").click(() => {
+      location.href = "join.html";
+    });
+  </script>
+</body>
+
+</html>

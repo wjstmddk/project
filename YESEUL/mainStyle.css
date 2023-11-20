@@ -1,8 +1,22 @@
+@font-face {
+  font-family: "Cafe24Supermagic-Bold-v1.0";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/Cafe24Supermagic-Bold-v1.0.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+
 body {
     padding: 30px;
     background-color: #f3f1e9;
+    font-family: "Cafe24Supermagic-Bold-v1.0", sans-serif;
   }
   
+  h1 {
+    font-size: 45px;
+    color: palevioletred;
+}
+
   /* header 영역  */
   header {
     padding: 5px;
@@ -13,6 +27,20 @@ body {
     color: black;
   }
   
+  #logoutbnt {
+    color: #fffffe;
+    background-color: palevioletred;
+    width: 95px;
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14.5px;
+    outline: none;
+    float: right;
+    margin-right: 18px;
+    margin-top: 10px;
+  }
+   
   #loginbnt {
     color: #fffffe;
     background-color: palevioletred;
@@ -26,7 +54,6 @@ body {
     margin-right: 18px;
     margin-top: 10px;
   }
-  
   /* nav 영역 */
   nav {
     margin-top: 10px;
@@ -76,7 +103,7 @@ body {
   
   #btn {
     /* 로그인버튼 */
-    background-color: goldenrod;
+    background-color: palevioletred;
     margin-bottom: 30px;
     color: white;
   }
@@ -126,7 +153,7 @@ body {
   
   footer {
     clear: both;
-    background-color: goldenrod;
+    background-color: palevioletred;
     color: white;
     text-align: center;
     padding: 1em 0px;

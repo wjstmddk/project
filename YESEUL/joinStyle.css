@@ -1,7 +1,6 @@
 @font-face {
   font-family: "Cafe24Supermagic-Bold-v1.0";
-  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/Cafe24Supermagic-Bold-v1.0.woff2")
-    format("woff2");
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/Cafe24Supermagic-Bold-v1.0.woff2") format("woff2");
   font-weight: 700;
   font-style: normal;
 }
@@ -14,21 +13,19 @@ body {
   background-color: #fafafa;
   font-family: "Cafe24Supermagic-Bold-v1.0", sans-serif;
 }
-/* webstargram 로고 */
+
 h1 {
-  font-family: "Cafe24Supermagic-Bold-v1.0", sans-serif;
   font-size: 45px;
   color: palevioletred;
-}
-
-.main-container .id {
-  margin: 3px auto;
 }
 
 .main-container {
   display: flex;
   flex-direction: column;
+  /* 수직중앙정렬 */
   align-items: center;
+  /* 수평 중앙 정렬 */
+  justify-content: center;   
   flex-wrap: wrap;
   width: 650px;
   height: 600px;
@@ -38,19 +35,18 @@ h1 {
 }
 
 .login-container {
-  text-align: center; /* 가운데 정렬 추가 */
+  text-align: center;
 }
 
-/* 로그인 ,비밀번호 input */
 input {
   margin: 3px auto;
   width: 260px;
   height: 40px;
   font-size: 12px;
-  text-align: left; /* 왼쪽 정렬 추가 */
+  text-align: left;
 }
 
-/* 로그인버튼 */
+
 .loginbtn {
   width: 260px;
   height: 40px;
