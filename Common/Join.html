@@ -96,7 +96,7 @@
           // userEmail 공백,메일형식 검사
           $("#email").blur(function () {
             if ($("#email").val() == "") {
-              $(".email").text("이메일을 입력해주세요.").css("color", "red");
+              $(".email").text("이메일을 입력해주세요.").css("color", "black");
               $("#email").focus();
               return false;
             } else if (!email.test($("#email").val())) {
@@ -105,7 +105,8 @@
                 .css("color", "red");
               return false;
             } else {
-              $(".email").text("");
+              $(".email").text("사용할수있는이메일입니다.")
+                .css("color", "green")
               return true;
             }
           });
@@ -120,7 +121,7 @@
               $("#username").focus();
               return false;
             } else {
-              $(".name").css(none)
+              $(".name").css("color", "green");
               return true;
             }
           });
@@ -170,25 +171,25 @@
               $(".id").text("사용가능한 아이디입니다.").css("color", "green");
               $("#password").focus();
               return true;
+
+
             }
           });
 
 
-// input값이 비어있는데 회원가입 버튼 누르면 false
+          // input값이 비어있는데 회원가입 버튼 누르면 false
           $("#joinBtn").click(function () {
             if ($("#email").val() == "" ||
-                $("#username").val() == "" ||
-                $("#password").val() == "" ||
-                $("#checkPwd").val() == "" ||
-                $("#usernic").val() == "") {
+              $("#username").val() == "" ||
+              $("#password").val() == "" ||
+              $("#checkPwd").val() == "" ||
+              $("#usernic").val() == "") {
               alert("입력되지 않은 항목이 있습니다. 모든 항목을 입력해주세요.");
               return false;
               alert("회원가입 성공");
             }
           });
         });
-
-
       </script>
 </body>
 
