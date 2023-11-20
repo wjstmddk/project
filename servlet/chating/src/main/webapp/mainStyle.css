@@ -1,0 +1,184 @@
+@font-face {
+  font-family: "Cafe24Supermagic-Bold-v1.0";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/Cafe24Supermagic-Bold-v1.0.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+
+body {
+    padding: 30px;
+    background-color: #f3f1e9;
+    font-family: "Cafe24Supermagic-Bold-v1.0", sans-serif;
+  }
+  
+  h1 {
+    font-size: 45px;
+    color: palevioletred;
+}
+
+  /* header 영역  */
+  header {
+    padding: 5px;
+  }
+  
+  header a {
+    text-decoration: none;
+    color: black;
+  }
+  
+  #logoutbnt {
+    color: #fffffe;
+    background-color: palevioletred;
+    width: 95px;
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14.5px;
+    outline: none;
+    float: right;
+    margin-right: 18px;
+    margin-top: 10px;
+  }
+   
+  #loginbnt {
+    color: #fffffe;
+    background-color: palevioletred;
+    width: 95px;
+    height: 35px;
+    border: none;
+    border-radius: 4px;
+    font-size: 14.5px;
+    outline: none;
+    float: right;
+    margin-right: 18px;
+    margin-top: 10px;
+  }
+  /* nav 영역 */
+  nav {
+    margin-top: 10px;
+    margin-bottom: 20px;
+  }
+  
+  div.loginbox {
+    width: 100%;
+    margin: auto;
+    /* 가로중앙배치 */
+    width: 300px;
+    height: 200px;
+    background-color: gainsboro;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  nav ul {
+    list-style: none;
+    border-top: 1px solid gray;
+    border-bottom: 1px solid gray;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline-block;
+    letter-spacing: 30px;
+    margin-left: 2em;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: black;
+    line-height: 6px;
+  }
+  
+  input {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: none;
+  }
+  
+  .in {
+    margin-bottom: 10px;
+  }
+  
+  #btn {
+    /* 로그인버튼 */
+    background-color: palevioletred;
+    margin-bottom: 30px;
+    color: white;
+  }
+  
+  a {
+    /* 아이디,비밀번호 잊어버리셨나요 텍스트 */
+    color: gray;
+    font-size: 12px;
+  }
+  
+  aside#left {
+    float: left;
+    width: 10em;
+    margin-right: 10px;
+  }
+  
+  aside#left ul {
+    list-style: none;
+  }
+  
+  aside#left ul li {
+    background-color: gray;
+    padding: 5px 10px;
+    border-bottom: 1px solid black;
+  }
+  
+  aside#left ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  aside#main {
+    float: left;
+  }
+  
+  /* 가운데 본문 영역 */
+  section#main {
+    float: left;
+  }
+  
+  /* 오른쪽 사이드 메뉴 */
+  aside#right {
+    float: right;
+    padding: 10px;
+    width: 12px;
+  }
+  
+  footer {
+    clear: both;
+    background-color: palevioletred;
+    color: white;
+    text-align: center;
+    padding: 1em 0px;
+  }
+  
+  table {
+    width: 100%;
+    border-top: 1px solid gray;
+    border-collapse: collapse;
+    margin-bottom: 50px;
+  }
+  
+  th,
+  td {
+    border-bottom: 1px solid black;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  tr {
+    background-color: wheat;
+    color: black;
+  }
+  
+  tr:nth-child(2n) {
+    background-color: white;
+  }
+  

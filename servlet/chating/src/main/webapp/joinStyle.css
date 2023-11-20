@@ -1,0 +1,66 @@
+@font-face {
+  font-family: "Cafe24Supermagic-Bold-v1.0";
+  src: url("https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2307-2@1.0/Cafe24Supermagic-Bold-v1.0.woff2") format("woff2");
+  font-weight: 700;
+  font-style: normal;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fafafa;
+  font-family: "Cafe24Supermagic-Bold-v1.0", sans-serif;
+}
+
+h1 {
+  font-size: 45px;
+  color: palevioletred;
+}
+
+.main-container {
+  display: flex;
+  flex-direction: column;
+  /* 수직중앙정렬 */
+  align-items: center;
+  /* 수평 중앙 정렬 */
+  justify-content: center;   
+  flex-wrap: wrap;
+  width: 650px;
+  height: 600px;
+  margin: 200px auto;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+}
+
+.login-container {
+  text-align: center;
+}
+
+input {
+  margin: 3px auto;
+  width: 260px;
+  height: 40px;
+  font-size: 12px;
+  text-align: left;
+}
+
+
+.loginbtn {
+  width: 260px;
+  height: 40px;
+  margin: 15px;
+  background-color: rgb(32, 144, 188);
+  color: white;
+  border: none;
+  border-radius: 5px;
+}
+
+footer {
+  position: relative;
+  top: 100px;
+  color: gray;
+  font-size: 12px;
+  text-align: center;
+}
