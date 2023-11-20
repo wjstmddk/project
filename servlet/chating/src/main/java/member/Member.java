@@ -1,17 +1,12 @@
 package member;
 
 public class Member {
-	private String id;
-	private String pw;
-	private String email;
-	private String nick;
+	String id;
+	String pw;
 	
-	
-	public Member(String email, String pw, String id, String nick) {
+	public Member(String id, String pw) {
 		this.id=id;
 		this.pw=pw;
-		this.email=email;
-		this.nick=nick;
 	}
 	
 	public Member() {
@@ -34,22 +29,6 @@ public class Member {
 		this.pw = pw;
 	}
 	
-	public String getEmail() {
-		return email;
-	}
-
-	public void setEmail(String email) {
-		this.email = email;
-	}
-
-	public String getNick() {
-		return nick;
-	}
-
-	public void setNick(String nick) {
-		this.nick = nick;
-	}
-
 	@Override
 	public String toString() {
 		String str="";
